@@ -43,9 +43,24 @@ body {
     max-height: 350px;
   }
   
+  .botoes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
   .botao {
     font-family: "Roboto Mono", monospace;
     color: #ffffff;
     background-color: #000000;
     border-radius: 12px;
+
+  }
+
+  .titulo__botoes {
+    color: #ffffff;
+  }
+
+  .caixa_texto {
+    margin: 1rem 0;
   }
